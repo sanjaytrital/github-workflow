@@ -1,0 +1,39 @@
+# CODEOWNERS file
+# This file specifies who must review changes to specific files/directories
+# When branch protection is enabled with code owner reviews, these users/teams will be required reviewers
+
+# Default owners for the entire repository
+* @sanjayatrital
+
+# You can also specify owners for specific paths
+# Examples:
+
+# GitHub workflows - require review from whoever maintains CI/CD
+# /.github/workflows/ @sanjayatrital
+
+# Documentation - specify documentation team
+# /docs/ @sanjayatrital
+# README.md @sanjayatrital
+
+# Source code - specify development team
+# /src/ @sanjayatrital
+
+# Tests - specify QA team
+# /tests/ @sanjayatrital
+# /__tests__/ @sanjayatrital
+
+# Security-related files
+# /security/ @sanjayatrital
+# /.gitignore @sanjayatrital
+
+# Configuration files
+# /*.json @sanjayatrital
+# /*.yaml @sanjayatrital
+# /*.yml @sanjayatrital
+
+# Example of assigning multiple owners to a path
+# /src/ @user1 @user2 @team-name
+
+# Note: Replace @sanjayatrital with actual GitHub usernames or team names
+# Team format: @org/team-name
+
